@@ -28,32 +28,32 @@
                     name: '海浪',
                     singer: '红白色乐队',
                     url: 'http://music.163.com/song/media/outer/url?id=514774334.mp3',
-                    img_url: 'http://p1.music.126.net/zUmHQmaRmxKqj97MXoP_8A==/109951163051106498.jpg?param=130y130',
+                    img_url: 'http://p1.music.126.net/zUmHQmaRmxKqj97MXoP_8A==/109951163051106498.jpg?param=400y400',
                 }, {
                     name: '童话破灭',
                     singer: '陈光荣',
                     url: 'http://music.163.com/song/media/outer/url?id=27591655.mp3',
-                    img_url: 'http://p1.music.126.net/9KeyafHLjadqSQTRS_tN5Q==/5741649720318487.jpg?param=130y130',
+                    img_url: 'http://p1.music.126.net/9KeyafHLjadqSQTRS_tN5Q==/5741649720318487.jpg?param=400y400',
                 }, {
                     name: '杭州',
                     singer: '李志',
                     url: 'http://music.163.com/song/media/outer/url?id=26508235.mp3',
-                    img_url: 'http://p1.music.126.net/7w7pX7BKTdBcFF1AtuZC2g==/5957153999486269.jpg?param=130y130'
+                    img_url: 'http://p1.music.126.net/7w7pX7BKTdBcFF1AtuZC2g==/5957153999486269.jpg?param=400y400'
                 }, {
                     name: 'To All Of You',
                     singer: 'Syd Matters',
                     url: 'http://music.163.com/song/media/outer/url?id=30496506.mp3',
-                    img_url: 'http://p1.music.126.net/4mvHLTnDqrt9uH3FBaCl2Q==/528865120667809.jpg?param=130y130'
+                    img_url: 'http://p1.music.126.net/4mvHLTnDqrt9uH3FBaCl2Q==/528865120667809.jpg?param=400y400'
                 }, {
                     name: '第三人称',
                     singer: 'Hush!',
                     url: 'http://music.163.com/song/media/outer/url?id=27598482.mp3',
-                    img_url: 'http://p1.music.126.net/6LdS-QfFPbwCJsRyO-r2xw==/3142404232262770.jpg?param=130y130'
+                    img_url: 'http://p1.music.126.net/6LdS-QfFPbwCJsRyO-r2xw==/3142404232262770.jpg?param=400y400'
                 }, {
                     name: 'The Angry River',
                     singer: 'Father John Misty / The Hat / S. I. Istwa',
                     url: 'http://music.163.com/song/media/outer/url?id=28293821.mp3',
-                    img_url: 'http://p1.music.126.net/-OGJDNkolTAHXEvsqRcSig==/6062707115646574.jpg?param=130y130'
+                    img_url: 'http://p1.music.126.net/-OGJDNkolTAHXEvsqRcSig==/6062707115646574.jpg?param=400y400'
                 }
             ],
 
@@ -457,7 +457,7 @@
 
         //给dom装填数据
         musicValue._insertData = function(data,index){
-            var music_imgUrl = data[index].img_url || 'http://p1.music.126.net/HfONoiydSxBFn2SMmyN3qg==/3235862724973369.jpg?param=130y130';
+            var music_imgUrl = data[index].img_url || 'http://p1.music.126.net/HfONoiydSxBFn2SMmyN3qg==/3235862724973369.jpg?';
             var music_name = data[index].name || 'Lost Stars';
             var music_url = data[index].url || 'http://music.163.com/song/media/outer/url?id=28737747.mp3';
             var music_singer = data[index].singer || '默认音乐';
