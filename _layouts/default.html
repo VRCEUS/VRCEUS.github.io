@@ -7,7 +7,8 @@
     * User            Vrceus
     -->
     <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>VRCEUS</title>
+    <!--<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>-->
     <meta name="author" content="Vrceus" />
     <meta name="renderer" content="webkit">
     <meta name="description" content="Everything about Vrceus" />
@@ -17,34 +18,34 @@
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
-<body>
+    <body>
 
-    <div class="home-menu">
-        <div class="home-icon-con">
-            <a class="home-menu-icon" href="/">Vrceus</a>
-            <a class="home-follow" href="#" title="Contact Me">+</a>
+        <div class="home-menu">
+            <div class="home-icon-con">
+                <a class="home-menu-icon" href="/">Vrceus</a>
+                <a class="home-follow" href="#" title="Contact Me">+</a>
+            </div>
+            <div class="home-contact">
+                <a href="https://github.com/VRCEUS" target="_blank" style="margin-left:-5px;"><img src="https://github.com/favicon.ico" alt="" width="22"/></a>
+                <a href="https://www.douban.com/people/58148768/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
+                <a href="https://www.zhihu.com/people/58148768/" target="_blank" style="text-align:right"><img src="http://www.zhihu.com/favicon.ico" alt="" width="22"/></a>
+            </div>
         </div>
-        <div class="home-contact">
-            <a href="https://github.com/VRCEUS" target="_blank" style="margin-left:-5px;"><img src="https://github.com/favicon.ico" alt="" width="22"/></a>
-            <a href="https://www.douban.com/people/58148768/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-            <a href="https://www.zhihu.com/people/58148768/" target="_blank" style="text-align:right"><img src="http://www.zhihu.com/favicon.ico" alt="" width="22"/></a>
-        </div>
-    </div>
 
-    {{ content }}
+        {{ content }}
 
-    <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
+        <script type="text/javascript">
+            $(function(){
+                $('.home-follow').click(function(e){
+                    e.preventDefault();
 
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
-            });
-        })
-    </script>
-</body>
-</html>
+                    if($('.home-contact').is(':visible')){
+                        $('.home-contact').slideUp(100);
+                    }else{
+                        $('.home-contact').slideDown(100);
+                    }
+                });
+            })
+        </script>
+    </body>
+    </html>
