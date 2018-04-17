@@ -5,6 +5,6 @@ highlighter: 'pygments'
 #paginate: 8
 permalink: /:title
 
-title: VRCEUS url: http://mukosame.github.io
+title:VRCEUS url: https://vrceus.github.io/
 feed: /atom.xml
-author_info: <a href="http://mukosame.github.io/">Mukosame</a>
+author_info: <a href="https://vrceus.github.io/">Vrceus</a>
