@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 不语
-category: dump
-description: Die Erkenntnis.
+category: blog
+description: null
 ---
 
-[Mukosame]:    http://mukosame.github.io  "Mukosame"
+
