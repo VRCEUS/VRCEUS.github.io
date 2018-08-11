@@ -6,7 +6,7 @@ highlighter: 'rouge'
 #paginate: 8
 permalink: /:title
 
-name: ¡°Vrceus's Blog¡±
+name: "Vrceus's Blog"
 description: Something about VRCEUS.
 title: VRCEUS 
 url: https://vrceus.github.io/
