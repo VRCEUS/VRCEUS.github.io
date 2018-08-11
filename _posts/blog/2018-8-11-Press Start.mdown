@@ -3,7 +3,6 @@ layout: post
 title:  "Press Start"
 description: Press Start
 category: blog
-date:   2018-08-11
 ---
 
 # Press Start 2018年8月11日
