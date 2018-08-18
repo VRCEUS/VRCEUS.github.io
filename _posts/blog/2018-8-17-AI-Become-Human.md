@@ -2,7 +2,7 @@
 layout: post
 title: 关于未来AI取代人类工作的一些思考
 category: blog
-description: Detroit: Become Human 简单评测
+description: Detroit-Become Human 简单评测
 ---
 
 ### 关于未来AI取代人类工作的一些思考
