@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 游戏测评指南
-category: dump
+category: inspiration
 description: 关于游戏的部分思考
 ---
 
