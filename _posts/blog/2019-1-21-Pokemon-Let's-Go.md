@@ -2,7 +2,7 @@
 layout: post
 title: 精灵宝可梦let's go
 category: blog
-description: 测评
+description: 失望的重制作
 ---
 
 ### 评分：7  

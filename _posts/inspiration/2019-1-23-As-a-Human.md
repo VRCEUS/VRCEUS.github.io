@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 人的构成及其思想
-category: blog
+category: inspiration
 description: 人的构成是由理性与情绪根据经验与习惯做出的决策与判断
 ---
 
