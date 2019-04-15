@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 知识论
-category: blog
+category: inspiration
 description: 摘要与总结
 ---
 

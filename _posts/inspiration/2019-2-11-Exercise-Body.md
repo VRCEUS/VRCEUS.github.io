@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 保持良好的身体状态
-category: blog
+category: inspiration
 description: 一些实践与训练方法
 ---
 
