@@ -349,10 +349,10 @@ CRNN\model.py文件主要是调用CRNN\crnn\crnn.py中核心的识别方法crnnO
 
 
 #### 参考代码：  
-https://github.com/meijieru/crnn.pytorch
-https://github.com/xiaofengShi/CHINESE-OCR
-https://github.com/eragonruan/text-detection-ctpn
-https://github.com/bay1/card-crnn-ctpn (飞爷tql)
+<https://github.com/meijieru/crnn.pytorch>
+<https://github.com/xiaofengShi/CHINESE-OCR>
+<https://github.com/eragonruan/text-detection-ctpn>
+<https://github.com/bay1/card-crnn-ctpn> (飞爷tql)
 
 ---
 
