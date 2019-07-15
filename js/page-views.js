@@ -1,10 +1,6 @@
 
 $(document).ready(function(){
 
-
-    document.write("<h1>Test1</h1>");
-    document.write("<p>Test111</p>");
-
     pageview();
 
 
@@ -28,6 +24,8 @@ else
 if (confirm("Cookie exceeds 4KB and will be cut!"))
 document.cookie = curCookie
 }
+
+
 function getCookie(name) {
 var prefix = name + "="
 var cookieStartIndex = document.cookie.indexOf(prefix)
@@ -38,6 +36,8 @@ if (cookieEndIndex == -1)
 cookieEndIndex = document.cookie.length
 return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
 }
+
+
 function deleteCookie(name, path, domain) {
 if (getCookie(name)) {
 document.cookie = name + "=" +
@@ -46,13 +46,18 @@ document.cookie = name + "=" +
 "; expires=Thu, 01-Jan-70 00:00:01 GMT"
 }
 }
+
+
 function fixDate(date) {
 var base = new Date(0)
 var skew = base.getTime()
 if (skew > 0)
 date.setTime(date.getTime() - skew)
 }
+
+
 var now = new Date()
+
 fixDate(now)
 now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
 var visits = getCookie("counter")
@@ -60,6 +65,7 @@ if (!visits)
 visits = 1
 else
 visits = parseInt(visits) + 1
+
 setCookie("counter", visits, now)
 document.write("您是第" + visits + "位访问本专题的！")
 
