@@ -1,5 +1,6 @@
 
 
+//Cookie不行的...
 
     pageview();
 
@@ -65,6 +66,78 @@ else
 visits = parseInt(visits) + 1
 
 setCookie("counter", visits, now)
-document.write("您是第" + visits + "位访问本专题的！")
+document.write("浏览量：" + visits)
 
     }
+
+
+//获取页面（文章）名称
+var key = document.getElementById("title").innerText;
+
+
+//定义字典
+//字典数据结构
+function Dictionary(){
+    this.items = {};
+    //检查是否有某一个键
+    this.has = function(key){
+        return this.items.hasOwnProperty(key);
+    }
+    //为字典添加某一个值
+    this.set = function(key,val){
+        this.items[key] = val;
+    }
+    //删除某一个键
+    this.delete = function(key){
+        if(this.has(key)){
+            delete this.items[key];
+            return true;
+        }
+        return false;
+    }
+    //查找某一特定项
+    this.get = function(key){
+        return this.has(key) ? this.items[key] : undefined; 
+    }
+    //返回字典中的所有值
+    this.values = function(){
+        var res = [];
+        for(var prop in this.items){
+            if(this.has(prop)){
+                res.push(this.items[prop]);
+            }
+        }
+        return res;
+    }
+    //清空字典
+    this.clear = function(){
+        this.items = {};
+    }
+    //获取字典的长度
+    this.size = function(){
+        return Object.keys(this.items).length;
+    }
+    //获取字典所有的键
+    this.keys = function(){
+        return Object.keys(this.items);
+    }
+    //返回字典本身
+    this.getItems = function(){
+        return this.items;
+    }
+}
+//使用方法
+// var dictionary = new Dictionary();
+// dictionary.set('Gandalf', 'gandalf@email.com');
+// dictionary.set('John', 'johnsnow@email.com');
+// dictionary.set('Tyrion', 'tyrion@email.com');
+// console.log(dictionary.has('Gandalf'));
+// console.log(dictionary.size());
+// console.log(dictionary.keys());
+// console.log(dictionary.values());
+// console.log(dictionary.getItems());
+// console.log(dictionary.get('Tyrion'));
+// dictionary.delete('John');
+// console.log(dictionary.keys());
+// console.log(dictionary.values()); 
+// console.log(dictionary.getItems());
