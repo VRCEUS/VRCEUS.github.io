@@ -2,6 +2,10 @@
 $(document).ready(function(){
 
 
+    document.write("<h1>Test1</h1>");
+    document.write("<p>Test111</p>");
+
+
     var caution = false
     function setCookie(name, value, expires, path, domain, secure) {
     var curCookie = name + "=" + escape(value) +
