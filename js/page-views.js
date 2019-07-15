@@ -1,11 +1,10 @@
 
-$(document).ready(function(){
+
 
     pageview();
 
 
-    
-    });
+
 
     function pageview(){
 
