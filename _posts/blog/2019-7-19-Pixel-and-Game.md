@@ -85,7 +85,7 @@ The Lion's Song
 <center>背景镜子中的画面非常细腻</center>
 
 ![The Hex](../../images/Blog_img/2019-7-19-Pixel-and-Game11.png)
-<center>he Hex的设置界面</center>
+<center>The Hex的设置界面</center>
 
 
 
