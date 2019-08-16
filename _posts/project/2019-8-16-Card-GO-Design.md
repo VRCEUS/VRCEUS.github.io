@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CardGO设计日志
-category: blog
+category: project
 description: 开发日志之后再写...
 ---
 

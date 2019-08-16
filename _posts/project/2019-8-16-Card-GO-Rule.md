@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CardGO玩法规则
-category: blog
+category: project
 description: 不完整简要说明
 ---
 
