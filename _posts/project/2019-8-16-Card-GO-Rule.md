@@ -97,6 +97,7 @@ CardGO 是一款结合了卡牌，消除与围棋的游戏。
 ![示例1](../../images/Blog_img/2019-8-16-Card-GO-Rule5.png)
 <center>示例5</center>
 
+(以上图片均来自游戏早期版本)
 
 ---
 
