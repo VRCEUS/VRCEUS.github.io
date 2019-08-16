@@ -5,6 +5,8 @@ category: project
 description: 开发日志之后再写...
 ---
 
+CardGO玩法规则：<https://vrceus.github.io/Card-GO-Rule>  
+
 
 **这篇文章主要是总结CardGO从游戏具体玩法框架成立到游戏程序初步完成的8天时间内的设计思路。**
 

@@ -5,10 +5,11 @@ category: project
 description: 不完整简要说明
 ---
 
+CardGO设计日志：<https://vrceus.github.io/Card-GO-Design>  
 
 ### 游戏说明：
 
-Card GO 是一款结合了卡牌，消除与围棋的游戏。
+CardGO 是一款结合了卡牌，消除与围棋的游戏。
 实际上，该玩法初衷是作为另一款游戏的内部的一个系统存在，不过CardGO也能作为一个单独的游戏进行游玩。
 
 #### 卡牌说明：
