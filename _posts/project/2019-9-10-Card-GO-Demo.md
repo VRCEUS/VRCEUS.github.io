@@ -26,21 +26,7 @@ CardGO玩法规则：<https://vrceus.github.io/Card-GO-Rule>
 <font color=Crimson face="fantasy" size=10><center>Press Start</center></font> 
 </a>
 
-
-{% highlight html linenos %}
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-        </title>
-    </head>
-    <body>
-    <a href="" title="Start">
-<font color=Crimson face="fantasy" size=10><center>Press Start</center></font> 
-</a>
-    </body>
-</html>
-{% endhighlight %}
+<font color=Crimson size=10><center>Press Start</center></font> 
 
 
 [comment]: <> ([^_^]: <a href="" title="Start"><center><font color=Crimson face="fantasy" size=10>Press Start</font> </center></a>)
