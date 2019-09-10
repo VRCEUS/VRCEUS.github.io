@@ -19,10 +19,12 @@ CardGO玩法规则：<https://vrceus.github.io/Card-GO-Rule>
 
 
 <div markdown="1">
-<a href="../../project/CardGo_0.6_Web/index.html" title="Start">
-<center>**Press Start**</center>
-</a>
+**<a href="../../project/CardGo_0.6_Web/index.html" title="Start">
+<center>Press Start</center>
+</a>**
 </div>
+
+[**<center> Press Start </center>**](../../project/CardGo_0.6_Web/index.html)
 
 
 [comment]: <> ([^_^]: <a href="" title="Start"><center><font color=Crimson face="fantasy" size=10>Press Start</font> </center></a>)
