@@ -33,9 +33,9 @@ CardGO玩法规则：<https://vrceus.github.io/Card-GO-Rule>
 **Press Start**
 
 <div markdown="1">
-<a href="../../project/CardGo_0.6_Web/index.html" title="Start">
-<font color=Crimson face="fantasy" size=10><center>Press Start</center></font> 
-</a>
+<font color=Crimson face="fantasy" size=10><a href="../../project/CardGo_0.6_Web/index.html" title="Start">
+<center>Press Start</center>
+</a></font> 
 </div>
 
 [Press Start]("../../project/CardGo_0.6_Web/index.html")
