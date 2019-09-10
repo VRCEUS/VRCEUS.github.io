@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "CardGO",
+"dataUrl": "CardGo_0.6_Web.data.unityweb",
+"wasmCodeUrl": "CardGo_0.6_Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "CardGo_0.6_Web.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
