@@ -17,22 +17,14 @@ CardGO玩法规则：<https://vrceus.github.io/Card-GO-Rule>
 
 ### 点击开始游戏：
 
-    
-<table border="1" align="center"><tr><td bgcolor=DarkGray><a href="" title="Start" >
-<font color=red face="fantasy" size=10>Press Start</font> 
-</a></td>
-</tr></table>
 
-<a href="" title="Start" >
-<font color=red face="fantasy" size=10>Press Start</font> 
+<a href="" title="Start">
+<font color=Crimson face="fantasy" size=10><center>Press Start</center></font> 
 </a>
 
-[comment]: <> ()
+[comment]: <> ([^_^]: <a href="" title="Start"><center><font color=Crimson face="fantasy" size=10>Press Start</font> </center></a>)
 
-[^_^]:
-<a href="" title="Start"><center><font color=Crimson face="fantasy" size=10>Press Start</font> </center></a>
-
-
+[comment]: <> (<table border="1" align="center"><tr><td bgcolor=DarkGray><a href="" title="Start"><font color=red face="fantasy" size=10>Press Start</font> </a></td></tr></table>)
 
     
 
