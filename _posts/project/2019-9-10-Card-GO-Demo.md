@@ -20,7 +20,7 @@ CardGO玩法规则：<https://vrceus.github.io/Card-GO-Rule>
 
 <div markdown="1">
 <a href="../../project/CardGo_0.6_Web/index.html" title="Start">
-**<center>Press Start</center>**
+<center>**Press Start**</center>
 </a>
 </div>
 
