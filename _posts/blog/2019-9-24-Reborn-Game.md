@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reborn的设计和系统
-category: project
+category: post
 description: 简要分享
 ---
 
