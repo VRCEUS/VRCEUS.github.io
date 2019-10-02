@@ -36,16 +36,16 @@ Unity中基本上所有的3D Collider都具有固定的形状，也并没有能�
 
 第一个是使用代码生成，
 
-```private Mesh SpriteToMesh(Sprite sprite)
-{
-    Mesh mesh = new Mesh();
-    mesh.SetVertices(Array.ConvertAll(sprite.vertices, i => (Vector3)i).ToList());
-    mesh.SetUVs(0,sprite.uv.ToList());
-    mesh.SetTriangles(Array.ConvertAll(sprite.triangles, i => (int)i),0);
+    private Mesh SpriteToMesh(Sprite sprite)
+    {
+        Mesh mesh = new Mesh();
+        mesh.SetVertices(Array.ConvertAll(sprite.vertices, i => (Vector3)i).ToList());
+        mesh.SetUVs(0,sprite.uv.ToList());
+        mesh.SetTriangles(Array.ConvertAll(sprite.triangles, i => (int)i),0);
 
-    return mesh;
-}
-```
+        return mesh;
+    }
+
 
 首先给物体挂载上MeshCollider，然后调用这个方法，输入Sprite，返回对应形状的mesh，并赋值给MeshCollider中的Mesh。
 
