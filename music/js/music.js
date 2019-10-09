@@ -27,7 +27,7 @@
                 {
                     name: 'Somewhere in time',
                     singer: '告五人',
-                    url: 'http://music.163.com/song/media/outer/url?id=79515295.mp3',
+                    url: 'http://music.163.com/song/media/outer/url?id=1368754688.mp3',
                     img_url: 'http://p1.music.126.net/5JLQMl8xASllDubCWb9WHw==/109951164111703663.jpg?param=400y400'
                 }, 
                 {
@@ -69,7 +69,7 @@
                 {
                     name: 'Enchanters',
                     singer: 'Dragon Age: Inquisition - The Bard Songs',
-                    url: 'http://music.163.com/song/media/outer/url?id=3125092.mp3',
+                    url: 'http://music.163.com/song/media/outer/url?id=31529024.mp3',
                     img_url: 'http://p2.music.126.net/zr3y-69-kRdad7jwRdVDFA==/109951164093795028.jpg?param=400y400'
                 }
             ],
