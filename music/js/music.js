@@ -25,6 +25,12 @@
             source:
             [
                 {
+                    name: 'Somewhere in time',
+                    singer: '告五人',
+                    url: 'http://music.163.com/song/media/outer/url?id=79515295.mp3',
+                    img_url: 'http://p1.music.126.net/5JLQMl8xASllDubCWb9WHw==/109951164111703663.jpg?param=400y400'
+                }, 
+                {
                     name: '海浪',
                     singer: '红白色乐队',
                     url: 'http://music.163.com/song/media/outer/url?id=514774334.mp3',
@@ -34,26 +40,37 @@
                     singer: '陈光荣',
                     url: 'http://music.163.com/song/media/outer/url?id=27591655.mp3',
                     img_url: 'http://p1.music.126.net/9KeyafHLjadqSQTRS_tN5Q==/5741649720318487.jpg?param=400y400',
-                }, {
-                    name: '杭州',
-                    singer: '李志',
-                    url: 'http://music.163.com/song/media/outer/url?id=26508235.mp3',
-                    img_url: 'http://p1.music.126.net/7w7pX7BKTdBcFF1AtuZC2g==/5957153999486269.jpg?param=400y400'
-                }, {
+                }, 
+                // {
+                //     name: '杭州',
+                //     singer: '李志',
+                //     url: 'http://music.163.com/song/media/outer/url?id=26508235.mp3',
+                //     img_url: 'http://p1.music.126.net/7w7pX7BKTdBcFF1AtuZC2g==/5957153999486269.jpg?param=400y400'
+                // }, 
+                {
                     name: 'To All Of You',
                     singer: 'Syd Matters',
                     url: 'http://music.163.com/song/media/outer/url?id=30496506.mp3',
                     img_url: 'http://p1.music.126.net/4mvHLTnDqrt9uH3FBaCl2Q==/528865120667809.jpg?param=400y400'
-                }, {
+                }, 
+                {
                     name: '第三人称',
                     singer: 'Hush!',
-                    url: 'http://music.163.com/song/media/outer/url?id=27598482.mp3',
+                    //qqMusic
+                    url: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400000QGcYk2gKWI5.m4a?guid=395380178&vkey=4584ADF81A81717B0B754CC327704281FB1AD4FFDECD62B691620E258C03A38365B90A1FDF10D91C6722B833F501B8A4E5BE49C377F38CD2&uin=0&fromtag=38',
                     img_url: 'http://p1.music.126.net/6LdS-QfFPbwCJsRyO-r2xw==/3142404232262770.jpg?param=400y400'
-                }, {
-                    name: 'The Angry River',
-                    singer: 'Father John Misty / The Hat / S. I. Istwa',
-                    url: 'http://music.163.com/song/media/outer/url?id=28293821.mp3',
-                    img_url: 'http://p1.music.126.net/-OGJDNkolTAHXEvsqRcSig==/6062707115646574.jpg?param=400y400'
+                }, 
+                // {
+                //     name: 'The Angry River',
+                //     singer: 'Father John Misty / The Hat / S. I. Istwa',
+                //     url: 'http://music.163.com/song/media/outer/url?id=28293821.mp3',
+                //     img_url: 'http://p1.music.126.net/-OGJDNkolTAHXEvsqRcSig==/6062707115646574.jpg?param=400y400'
+                // }
+                {
+                    name: 'Enchanters',
+                    singer: 'Dragon Age: Inquisition - The Bard Songs',
+                    url: 'http://music.163.com/song/media/outer/url?id=3125092.mp3',
+                    img_url: 'http://p2.music.126.net/zr3y-69-kRdad7jwRdVDFA==/109951164093795028.jpg?param=400y400'
                 }
             ],
 

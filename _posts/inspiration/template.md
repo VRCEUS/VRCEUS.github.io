@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 不语
-category: blog
+category: inspiration
 description: null
 ---
 
