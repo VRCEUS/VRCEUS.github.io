@@ -53,7 +53,9 @@ public class PermanentObject : MonoBehaviour
 
     //挂载的GameObject如果有脚本进行单例设置，需要先使用if(instance!=null)进行判断，防止被重写覆盖
 
-    void Start()
+
+    //void Start()
+    void Awake()
     {
 
         thisSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -84,7 +86,8 @@ public class PermanentObject : MonoBehaviour
             }
 
             //销毁该物体
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            DestroyImmediate(gameObject);
 
         }
         //如果当前场景没有该物体
@@ -131,3 +134,4 @@ uniqueID默认值是物体的名称(在代码中获得值)，一般来说由于�
 功能主要是利用一个静态全局字典来进行判断实现。
 
 最后需要注意的是，挂载物体上的脚本在实现单例时，需要使用if(instance!=null)进行判断，防止被新的重复脚本重写覆盖。
+同样，重新加载场景而重复生成的挂载该脚本的物体及其子物体由于会被脚本自动销毁，但是被销毁前需要注意避免有其他脚本在其Start()或Awake()中对之前保存的公有变量进行修改。（可以把这个脚本的执行顺序设置较前来解决该问题）
