@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Neurons的设计概念
+title: 体验引擎 游戏设计全景探秘
 category: blog
 description: 摘要及想法整理
 ---
 
-这篇博客主要是对实验性的游戏“Neurons(神经元)”进行的一些说明。
-
+对《体验引擎 游戏设计全景探秘》进行的整理。
 
 ## 情感
 
